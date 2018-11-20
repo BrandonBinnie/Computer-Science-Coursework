@@ -1,0 +1,12 @@
+c:\users\ed\documents\visual studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\bin\Debug\Comp Science Coursework.exe.config
+C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\bin\Debug\Comp Science Coursework.exe
+C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\bin\Debug\Comp Science Coursework.pdb
+C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp Science Coursework.csprojResolveAssemblyReference.cache
+C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp_Science_Coursework.Form1.resources
+C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp_Science_Coursework.Properties.Resources.resources
+C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp Science Coursework.csproj.GenerateResource.Cache
+C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp Science Coursework.exe
+C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp Science Coursework.pdb
+C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp_Science_Coursework.PlayerForm.resources
+C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp_Science_Coursework.FirstRoomForm.resources
+C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp_Science_Coursework.BattleScene.resources
