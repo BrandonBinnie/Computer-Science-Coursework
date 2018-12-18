@@ -64,6 +64,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MiniGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiniGame.Designer.cs">
+      <DependentUpon>MiniGame.cs</DependentUpon>
+    </Compile>
     <Compile Include="PlayerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiniGame.resx">
+      <DependentUpon>MiniGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PlayerForm.resx">
       <DependentUpon>PlayerForm.cs</DependentUpon>

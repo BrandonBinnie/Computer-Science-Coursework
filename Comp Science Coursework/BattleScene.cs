@@ -13,13 +13,13 @@ namespace Comp_Science_Coursework
     public partial class BattleScene : Form
     {
 
-        public string[] Abilities = new string [4];
+        public string[] Abilities = new string[4];
 
         public int PlayerHealth;
         public int EnemyHealth;
         public int PlayerEnergy;
         public string Playername;
-        public int[] AbilityEnergy = new int [4];
+        public int[] AbilityEnergy = new int[4];
         public int PlayerHitChance = 50;
         public int EnemyDodgeChance;
         public int PlayerDodgeChance;
@@ -28,7 +28,7 @@ namespace Comp_Science_Coursework
         public int Room;
         public int EnemyHitChance;
         public int XP;
-        public int[] AbilityHealth = [20 , 30 , 40];
+        public int[] AbilityHealth = {20, 30, 40};
 
         public BattleScene(string Class , int NumRoom , string NamePlayer , int PlayerXP)
         {
@@ -285,7 +285,7 @@ namespace Comp_Science_Coursework
             int AbilityHit = RNG.Next(100);
             if (AbilityHit < PlayerHitChance)
             {
-                EnemyHealth = EnemyHealth - AbilityHealth;
+                EnemyHealth = EnemyHealth;
                 AbilityHitLabel.Text = Abilities[0] + " Hit!";
                 AbilityHitLabel.Visible = true;
             }

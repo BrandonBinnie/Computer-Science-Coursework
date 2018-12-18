@@ -1,0 +1,25 @@
+A sequence of steps that can be folowed to complete a task and that always terminates
+An item of data whose value does not change
+An item of data whose value could change while the program is being run
+The process of giving a value to a variable or constant
+The location where instructions and data are stored on the computer
+The rules of how words are used within a given language 
+The process of finding and correcting errors in programs
+Any whole positive or negative number including zero
+Determines what sort of data are being stored and how it will be handled by the program
+The process of defining variables and constant in terms of their name and data type
+A set of related data items stored under a single identifier. Can work on one or more dimensions
+Any single value within a set or list - also called a member
+The principle of choosing what action to take based on certain criteria
+Placing one set of instructions within another set of instructions
+A process that repeats a set number of times
+A process that repeats until a certain condition is met
+A repeated process
+The principle of putting the correct instructions in the right oder within a program
+Common expressions such as +,-,/,*
+Expressions that compare two values such as equal to or greater than
+Expressions that result in a TRUE or FALSE value
+Boolean Operation that outputs true if both inputs are true
+Boolean Operation that outputs true if either of its inputs are true
+Boolean operation that inverts the result so true becomes false and false becomes true
+BOolean operation that is true if either input is true but not if both inputs are true

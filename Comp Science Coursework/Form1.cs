@@ -16,6 +16,7 @@ namespace Comp_Science_Coursework
 
         public Form1()
         {
+            
             InitializeComponent();
         }
 
@@ -33,7 +34,7 @@ namespace Comp_Science_Coursework
         {
 
             this.Visible = false; //stops showing the first form
-            PlayerForm EnterNameForm = new PlayerForm();
+            MiniGame EnterNameForm = new MiniGame();
             EnterNameForm.Visible = true; //loads up the new form to the player
 
             
