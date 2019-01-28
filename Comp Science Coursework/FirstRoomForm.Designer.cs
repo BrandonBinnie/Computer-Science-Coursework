@@ -32,9 +32,10 @@
             this.Enemy1Button = new System.Windows.Forms.Button();
             this.MiniGameButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.ContinueButton = new System.Windows.Forms.Button();
             this.PlayerNameBox = new System.Windows.Forms.Label();
             this.PlayerXP = new System.Windows.Forms.Label();
+            this.SaveButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +46,6 @@
             this.Enemy1Button.Name = "Enemy1Button";
             this.Enemy1Button.Size = new System.Drawing.Size(263, 350);
             this.Enemy1Button.TabIndex = 0;
-            this.Enemy1Button.Text = "button1";
             this.Enemy1Button.UseVisualStyleBackColor = true;
             this.Enemy1Button.Click += new System.EventHandler(this.Enemy1Button_Click);
             // 
@@ -58,6 +58,7 @@
             this.MiniGameButton.TabIndex = 1;
             this.MiniGameButton.Text = "Mini Game";
             this.MiniGameButton.UseVisualStyleBackColor = true;
+            this.MiniGameButton.Click += new System.EventHandler(this.MiniGameButton_Click);
             // 
             // pictureBox1
             // 
@@ -68,16 +69,16 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // ContinueButton
             // 
-            this.button1.Location = new System.Drawing.Point(705, 196);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 135);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Visible = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.ContinueButton.Location = new System.Drawing.Point(705, 196);
+            this.ContinueButton.Name = "ContinueButton";
+            this.ContinueButton.Size = new System.Drawing.Size(126, 135);
+            this.ContinueButton.TabIndex = 6;
+            this.ContinueButton.Text = "Continue";
+            this.ContinueButton.UseVisualStyleBackColor = true;
+            this.ContinueButton.Visible = false;
+            this.ContinueButton.Click += new System.EventHandler(this.ContinueButton_click);
             // 
             // PlayerNameBox
             // 
@@ -100,14 +101,26 @@
             this.PlayerXP.TabIndex = 16;
             this.PlayerXP.Text = "Name";
             // 
+            // SaveButton
+            // 
+            this.SaveButton.Font = new System.Drawing.Font("Sigma Five", 16F);
+            this.SaveButton.Location = new System.Drawing.Point(780, 19);
+            this.SaveButton.Name = "SaveButton";
+            this.SaveButton.Size = new System.Drawing.Size(107, 43);
+            this.SaveButton.TabIndex = 17;
+            this.SaveButton.Text = "Save";
+            this.SaveButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
+            // 
             // FirstRoomForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(899, 450);
+            this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.PlayerXP);
             this.Controls.Add(this.PlayerNameBox);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ContinueButton);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.MiniGameButton);
             this.Controls.Add(this.Enemy1Button);
@@ -125,8 +138,9 @@
         private System.Windows.Forms.Button Enemy1Button;
         private System.Windows.Forms.Button MiniGameButton;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button ContinueButton;
         private System.Windows.Forms.Label PlayerNameBox;
         private System.Windows.Forms.Label PlayerXP;
+        private System.Windows.Forms.Button SaveButton;
     }
 }

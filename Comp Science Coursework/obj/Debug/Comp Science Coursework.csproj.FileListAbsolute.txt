@@ -2,7 +2,6 @@ c:\users\ed\documents\visual studio 2015\Projects\Comp Science Coursework\Comp S
 C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\bin\Debug\Comp Science Coursework.exe
 C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\bin\Debug\Comp Science Coursework.pdb
 C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp Science Coursework.csprojResolveAssemblyReference.cache
-C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp_Science_Coursework.Form1.resources
 C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp_Science_Coursework.Properties.Resources.resources
 C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp Science Coursework.csproj.GenerateResource.Cache
 C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp Science Coursework.exe
@@ -24,3 +23,9 @@ C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp S
 \\ran\rgsroot\RGSStudentUsers\Cohort05\05brandonbinnie\Documents\Visual Studio 2017\Projects\Computer-Science-Coursework-master\Comp Science Coursework\bin\Debug\Comp Science Coursework.exe
 \\ran\rgsroot\RGSStudentUsers\Cohort05\05brandonbinnie\Documents\Visual Studio 2017\Projects\Computer-Science-Coursework-master\Comp Science Coursework\bin\Debug\Comp Science Coursework.pdb
 \\ran\rgsroot\RGSStudentUsers\Cohort05\05brandonbinnie\Documents\Visual Studio 2017\Projects\Computer-Science-Coursework-master\Comp Science Coursework\obj\Debug\Comp_Science_Coursework.MiniGame.resources
+C:\Users\ed\Documents\Visual Studio 2015\Projects\COMP SCIENCE COURSEWORK REAL\Comp Science Coursework\bin\Debug\Comp Science Coursework.exe.config
+C:\Users\ed\Documents\Visual Studio 2015\Projects\COMP SCIENCE COURSEWORK REAL\Comp Science Coursework\obj\Debug\Comp Science Coursework.exe
+C:\Users\ed\Documents\Visual Studio 2015\Projects\COMP SCIENCE COURSEWORK REAL\Comp Science Coursework\obj\Debug\Comp Science Coursework.pdb
+C:\Users\ed\Documents\Visual Studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp_Science_Coursework.MiniGame.resources
+C:\Users\ed\documents\visual studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp_Science_Coursework.MainMenu.resources
+C:\Users\ed\documents\visual studio 2015\Projects\Comp Science Coursework\Comp Science Coursework\obj\Debug\Comp_Science_Coursework.EndScreen.resources

@@ -55,7 +55,7 @@
             // 
             this.MiniGameTitle.AutoSize = true;
             this.MiniGameTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
-            this.MiniGameTitle.Location = new System.Drawing.Point(480, 48);
+            this.MiniGameTitle.Location = new System.Drawing.Point(399, 19);
             this.MiniGameTitle.Name = "MiniGameTitle";
             this.MiniGameTitle.Size = new System.Drawing.Size(166, 33);
             this.MiniGameTitle.TabIndex = 1;
@@ -63,7 +63,7 @@
             // 
             // MiniGameButton1
             // 
-            this.MiniGameButton1.Location = new System.Drawing.Point(153, 152);
+            this.MiniGameButton1.Location = new System.Drawing.Point(87, 70);
             this.MiniGameButton1.Name = "MiniGameButton1";
             this.MiniGameButton1.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton1.TabIndex = 11;
@@ -72,7 +72,7 @@
             // 
             // MiniGameButton2
             // 
-            this.MiniGameButton2.Location = new System.Drawing.Point(321, 152);
+            this.MiniGameButton2.Location = new System.Drawing.Point(255, 70);
             this.MiniGameButton2.Name = "MiniGameButton2";
             this.MiniGameButton2.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton2.TabIndex = 16;
@@ -81,7 +81,7 @@
             // 
             // MiniGameButton3
             // 
-            this.MiniGameButton3.Location = new System.Drawing.Point(486, 152);
+            this.MiniGameButton3.Location = new System.Drawing.Point(420, 70);
             this.MiniGameButton3.Name = "MiniGameButton3";
             this.MiniGameButton3.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton3.TabIndex = 17;
@@ -90,7 +90,7 @@
             // 
             // MiniGameButton4
             // 
-            this.MiniGameButton4.Location = new System.Drawing.Point(653, 152);
+            this.MiniGameButton4.Location = new System.Drawing.Point(587, 70);
             this.MiniGameButton4.Name = "MiniGameButton4";
             this.MiniGameButton4.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton4.TabIndex = 18;
@@ -99,7 +99,7 @@
             // 
             // MiniGameButton5
             // 
-            this.MiniGameButton5.Location = new System.Drawing.Point(818, 152);
+            this.MiniGameButton5.Location = new System.Drawing.Point(752, 70);
             this.MiniGameButton5.Name = "MiniGameButton5";
             this.MiniGameButton5.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton5.TabIndex = 19;
@@ -108,7 +108,7 @@
             // 
             // MiniGameButton6
             // 
-            this.MiniGameButton6.Location = new System.Drawing.Point(153, 248);
+            this.MiniGameButton6.Location = new System.Drawing.Point(87, 166);
             this.MiniGameButton6.Name = "MiniGameButton6";
             this.MiniGameButton6.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton6.TabIndex = 20;
@@ -117,7 +117,7 @@
             // 
             // MiniGameButton7
             // 
-            this.MiniGameButton7.Location = new System.Drawing.Point(321, 248);
+            this.MiniGameButton7.Location = new System.Drawing.Point(255, 166);
             this.MiniGameButton7.Name = "MiniGameButton7";
             this.MiniGameButton7.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton7.TabIndex = 21;
@@ -126,7 +126,7 @@
             // 
             // MiniGameButton8
             // 
-            this.MiniGameButton8.Location = new System.Drawing.Point(486, 248);
+            this.MiniGameButton8.Location = new System.Drawing.Point(420, 166);
             this.MiniGameButton8.Name = "MiniGameButton8";
             this.MiniGameButton8.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton8.TabIndex = 22;
@@ -135,7 +135,7 @@
             // 
             // MiniGameButton9
             // 
-            this.MiniGameButton9.Location = new System.Drawing.Point(653, 248);
+            this.MiniGameButton9.Location = new System.Drawing.Point(587, 166);
             this.MiniGameButton9.Name = "MiniGameButton9";
             this.MiniGameButton9.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton9.TabIndex = 23;
@@ -144,7 +144,7 @@
             // 
             // MiniGameButton10
             // 
-            this.MiniGameButton10.Location = new System.Drawing.Point(818, 248);
+            this.MiniGameButton10.Location = new System.Drawing.Point(752, 166);
             this.MiniGameButton10.Name = "MiniGameButton10";
             this.MiniGameButton10.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton10.TabIndex = 24;
@@ -153,7 +153,7 @@
             // 
             // MiniGameButton11
             // 
-            this.MiniGameButton11.Location = new System.Drawing.Point(153, 344);
+            this.MiniGameButton11.Location = new System.Drawing.Point(87, 262);
             this.MiniGameButton11.Name = "MiniGameButton11";
             this.MiniGameButton11.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton11.TabIndex = 25;
@@ -162,7 +162,7 @@
             // 
             // MiniGameButton12
             // 
-            this.MiniGameButton12.Location = new System.Drawing.Point(321, 344);
+            this.MiniGameButton12.Location = new System.Drawing.Point(255, 262);
             this.MiniGameButton12.Name = "MiniGameButton12";
             this.MiniGameButton12.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton12.TabIndex = 26;
@@ -171,7 +171,7 @@
             // 
             // MiniGameButton13
             // 
-            this.MiniGameButton13.Location = new System.Drawing.Point(486, 344);
+            this.MiniGameButton13.Location = new System.Drawing.Point(420, 262);
             this.MiniGameButton13.Name = "MiniGameButton13";
             this.MiniGameButton13.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton13.TabIndex = 27;
@@ -180,7 +180,7 @@
             // 
             // MiniGameButton14
             // 
-            this.MiniGameButton14.Location = new System.Drawing.Point(653, 344);
+            this.MiniGameButton14.Location = new System.Drawing.Point(587, 262);
             this.MiniGameButton14.Name = "MiniGameButton14";
             this.MiniGameButton14.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton14.TabIndex = 28;
@@ -189,7 +189,7 @@
             // 
             // MiniGameButton15
             // 
-            this.MiniGameButton15.Location = new System.Drawing.Point(818, 344);
+            this.MiniGameButton15.Location = new System.Drawing.Point(752, 262);
             this.MiniGameButton15.Name = "MiniGameButton15";
             this.MiniGameButton15.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton15.TabIndex = 29;
@@ -198,7 +198,7 @@
             // 
             // MiniGameButton16
             // 
-            this.MiniGameButton16.Location = new System.Drawing.Point(153, 439);
+            this.MiniGameButton16.Location = new System.Drawing.Point(87, 357);
             this.MiniGameButton16.Name = "MiniGameButton16";
             this.MiniGameButton16.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton16.TabIndex = 30;
@@ -207,7 +207,7 @@
             // 
             // MiniGameButton17
             // 
-            this.MiniGameButton17.Location = new System.Drawing.Point(321, 439);
+            this.MiniGameButton17.Location = new System.Drawing.Point(255, 357);
             this.MiniGameButton17.Name = "MiniGameButton17";
             this.MiniGameButton17.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton17.TabIndex = 31;
@@ -216,7 +216,7 @@
             // 
             // MiniGameButton18
             // 
-            this.MiniGameButton18.Location = new System.Drawing.Point(486, 439);
+            this.MiniGameButton18.Location = new System.Drawing.Point(420, 357);
             this.MiniGameButton18.Name = "MiniGameButton18";
             this.MiniGameButton18.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton18.TabIndex = 32;
@@ -225,7 +225,7 @@
             // 
             // MiniGameButton19
             // 
-            this.MiniGameButton19.Location = new System.Drawing.Point(653, 439);
+            this.MiniGameButton19.Location = new System.Drawing.Point(587, 357);
             this.MiniGameButton19.Name = "MiniGameButton19";
             this.MiniGameButton19.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton19.TabIndex = 33;
@@ -234,7 +234,7 @@
             // 
             // MiniGameButton20
             // 
-            this.MiniGameButton20.Location = new System.Drawing.Point(818, 439);
+            this.MiniGameButton20.Location = new System.Drawing.Point(752, 357);
             this.MiniGameButton20.Name = "MiniGameButton20";
             this.MiniGameButton20.Size = new System.Drawing.Size(145, 77);
             this.MiniGameButton20.TabIndex = 34;
@@ -245,7 +245,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1160, 630);
+            this.ClientSize = new System.Drawing.Size(985, 458);
             this.Controls.Add(this.MiniGameButton20);
             this.Controls.Add(this.MiniGameButton19);
             this.Controls.Add(this.MiniGameButton18);

@@ -1,6 +1,6 @@
 ﻿namespace Comp_Science_Coursework
 {
-    partial class Form1
+    partial class MainMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
             this.NewGameButton = new System.Windows.Forms.Button();
             this.LoadGameButton = new System.Windows.Forms.Button();
             this.QuitButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.LoadGameTextBox = new System.Windows.Forms.TextBox();
+            this.ListOfFilesLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // NewGameButton
@@ -53,6 +55,7 @@
             this.LoadGameButton.TabIndex = 2;
             this.LoadGameButton.Text = "Load Game Button";
             this.LoadGameButton.UseVisualStyleBackColor = true;
+            this.LoadGameButton.Click += new System.EventHandler(this.LoadGameButton_Click);
             // 
             // QuitButton
             // 
@@ -76,18 +79,40 @@
             this.label1.TabIndex = 11;
             this.label1.Text = "KNIGHTS OF THE GALAXY";
             // 
-            // Form1
+            // LoadGameTextBox
+            // 
+            this.LoadGameTextBox.Location = new System.Drawing.Point(522, 198);
+            this.LoadGameTextBox.Name = "LoadGameTextBox";
+            this.LoadGameTextBox.Size = new System.Drawing.Size(139, 20);
+            this.LoadGameTextBox.TabIndex = 12;
+            // 
+            // ListOfFilesLabel
+            // 
+            this.ListOfFilesLabel.AutoSize = true;
+            this.ListOfFilesLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ListOfFilesLabel.Font = new System.Drawing.Font("Sigma Five", 12F, System.Drawing.FontStyle.Bold);
+            this.ListOfFilesLabel.ForeColor = System.Drawing.SystemColors.Control;
+            this.ListOfFilesLabel.Location = new System.Drawing.Point(664, 113);
+            this.ListOfFilesLabel.MaximumSize = new System.Drawing.Size(200, 0);
+            this.ListOfFilesLabel.Name = "ListOfFilesLabel";
+            this.ListOfFilesLabel.Size = new System.Drawing.Size(162, 21);
+            this.ListOfFilesLabel.TabIndex = 13;
+            this.ListOfFilesLabel.Text = "List of Files : ";
+            // 
+            // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(919, 435);
+            this.Controls.Add(this.ListOfFilesLabel);
+            this.Controls.Add(this.LoadGameTextBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.QuitButton);
             this.Controls.Add(this.LoadGameButton);
             this.Controls.Add(this.NewGameButton);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainMenu";
+            this.Text = "Main Menu";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -99,6 +124,8 @@
         private System.Windows.Forms.Button LoadGameButton;
         private System.Windows.Forms.Button QuitButton;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox LoadGameTextBox;
+        private System.Windows.Forms.Label ListOfFilesLabel;
     }
 }
 

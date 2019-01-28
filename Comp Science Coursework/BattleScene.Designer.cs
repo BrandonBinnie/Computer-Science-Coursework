@@ -43,6 +43,9 @@
             this.EnemyHealthLabel = new System.Windows.Forms.Label();
             this.AbilityHitLabel = new System.Windows.Forms.Label();
             this.EndTurnButton = new System.Windows.Forms.Button();
+            this.HealthPotionLabel = new System.Windows.Forms.Label();
+            this.EnergyPotionLabel = new System.Windows.Forms.Label();
+            this.HitChanceLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // AbilityButton
@@ -65,6 +68,7 @@
             this.PotionButton.TabIndex = 1;
             this.PotionButton.Text = "Potions";
             this.PotionButton.UseVisualStyleBackColor = true;
+            this.PotionButton.Click += new System.EventHandler(this.PotionButton_Click);
             // 
             // RunButton
             // 
@@ -86,7 +90,7 @@
             this.Ability1Button.TabIndex = 9;
             this.Ability1Button.Text = "Ability1";
             this.Ability1Button.UseVisualStyleBackColor = true;
-            this.Ability1Button.Click += new System.EventHandler(this.button1_Click);
+            this.Ability1Button.Click += new System.EventHandler(this.Ability1Button_Click);
             // 
             // Ability2Button
             // 
@@ -189,7 +193,7 @@
             // 
             this.AbilityHitLabel.AutoSize = true;
             this.AbilityHitLabel.Font = new System.Drawing.Font("Sigma Five", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AbilityHitLabel.Location = new System.Drawing.Point(389, 252);
+            this.AbilityHitLabel.Location = new System.Drawing.Point(180, 254);
             this.AbilityHitLabel.Name = "AbilityHitLabel";
             this.AbilityHitLabel.Size = new System.Drawing.Size(128, 24);
             this.AbilityHitLabel.TabIndex = 19;
@@ -208,11 +212,44 @@
             this.EndTurnButton.Visible = false;
             this.EndTurnButton.Click += new System.EventHandler(this.EndTurnButton_Click);
             // 
+            // HealthPotionLabel
+            // 
+            this.HealthPotionLabel.AutoSize = true;
+            this.HealthPotionLabel.Font = new System.Drawing.Font("Sigma Five", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HealthPotionLabel.Location = new System.Drawing.Point(400, 364);
+            this.HealthPotionLabel.Name = "HealthPotionLabel";
+            this.HealthPotionLabel.Size = new System.Drawing.Size(85, 24);
+            this.HealthPotionLabel.TabIndex = 21;
+            this.HealthPotionLabel.Text = "Energy";
+            // 
+            // EnergyPotionLabel
+            // 
+            this.EnergyPotionLabel.AutoSize = true;
+            this.EnergyPotionLabel.Font = new System.Drawing.Font("Sigma Five", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EnergyPotionLabel.Location = new System.Drawing.Point(400, 388);
+            this.EnergyPotionLabel.Name = "EnergyPotionLabel";
+            this.EnergyPotionLabel.Size = new System.Drawing.Size(85, 24);
+            this.EnergyPotionLabel.TabIndex = 22;
+            this.EnergyPotionLabel.Text = "Energy";
+            // 
+            // HitChanceLabel
+            // 
+            this.HitChanceLabel.AutoSize = true;
+            this.HitChanceLabel.Font = new System.Drawing.Font("Sigma Five", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HitChanceLabel.Location = new System.Drawing.Point(400, 411);
+            this.HitChanceLabel.Name = "HitChanceLabel";
+            this.HitChanceLabel.Size = new System.Drawing.Size(85, 24);
+            this.HitChanceLabel.TabIndex = 23;
+            this.HitChanceLabel.Text = "Energy";
+            // 
             // BattleScene
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(899, 444);
+            this.Controls.Add(this.HitChanceLabel);
+            this.Controls.Add(this.EnergyPotionLabel);
+            this.Controls.Add(this.HealthPotionLabel);
             this.Controls.Add(this.EndTurnButton);
             this.Controls.Add(this.AbilityHitLabel);
             this.Controls.Add(this.EnemyHealthLabel);
@@ -252,5 +289,8 @@
         private System.Windows.Forms.Label EnemyHealthLabel;
         private System.Windows.Forms.Label AbilityHitLabel;
         private System.Windows.Forms.Button EndTurnButton;
+        private System.Windows.Forms.Label HealthPotionLabel;
+        private System.Windows.Forms.Label EnergyPotionLabel;
+        private System.Windows.Forms.Label HitChanceLabel;
     }
 }
